@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-bg: #ffffff;
+  --brand-surface: #f4f5f6;
+  --brand-text: #22313f;
+  --brand-muted: #7c838a;
+
+  --brand-accent: #1f3050;
+  --brand-accent-2: #4585db;
+  --brand-outline: #4585db;
+
+  --brand-icon-bg: #f0f7fd;
+  --brand-icon-blue: #6f93d8;
+
+  --brand-ring: #bfd6f6;
+}
+
+html,
+body {
+  background: var(--brand-bg);
+  color: var(--brand-text);
+}
+.card-surface {
+  background: var(--brand-surface);
+}
+
+.button-primary {
+  background: var(--brand-accent);
+  color: #fff;
+  border-radius: 9999px;
+}
+.button-outline {
+  background: transparent;
+  color: var(--brand-outline);
+  border: 2px solid var(--brand-outline);
+  border-radius: 9999px;
+}
+.focus-ring {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--brand-ring);
+}
