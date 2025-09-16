@@ -31,6 +31,15 @@ Set exact brand hex values in `app/globals.css` CSS variables:
 - Motion honors `prefers-reduced-motion` to protect accessibility and INP/LCP.
 - OTP never logs codes. Add rate limiting and server verification on backend.
 
+## What
+Brand-matched micro-interactions + rewards explainer + optional OTP. No backend, no analytics.
+
+## Why
+Small, safe UX wins that don’t regress Core Web Vitals. A11y respected.
+
+## How
+`npm i && npm run dev` (local), Vercel deploy ready.
+
 # madecard-ux-polish-demo
 
 A UX demo for Made Card
